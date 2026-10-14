@@ -1,0 +1,14 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.pre_mod_bak
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Distribution archives
+*.zip
