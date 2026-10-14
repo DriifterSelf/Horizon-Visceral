@@ -1,9 +1,10 @@
-# 🏎️ Forza Horizon 4 — Need for Speed (2015) Action Camera & Dynamic Telemetry Mod
+# 🏎️ Horizon-Visceral — Need for Speed (2015) Action Camera & Dynamic Telemetry Mod
 
 [![Game](https://img.shields.io/badge/Game-Forza%20Horizon%204-red.svg)](https://forza.net/)
 [![Platform](https://img.shields.io/badge/Platform-Steam%20%7C%20Windows-blue.svg)]()
 [![Type](https://img.shields.io/badge/Mod-Physics%20%2F%20Camera%20Engine-brightgreen.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved%20(Proprietary)-red.svg)](LICENSE)
+[![Author](https://img.shields.io/badge/Author-DriifterSelf-blueviolet.svg)](https://github.com/DriifterSelf)
 
 Un mod de física de cámara cinemática de alta acción para **Forza Horizon 4**, inspirado en la legendaria cámara de persecución dinámica de **Need for Speed (2015)** presentada en el E3.
 
@@ -103,9 +104,9 @@ El coche permanece **100% bloqueado en el centro horizontal de la pantalla**, lo
 ## 📦 Estructura del Repositorio
 
 ```
-FH4-NFS-Action-Camera-Mod/
+Horizon-Visceral/
 ├── README.md                           # Documentación técnica completa
-├── LICENSE                             # Licencia MIT
+├── LICENSE                             # Licencia Propietaria (Todos los derechos reservados)
 ├── .gitignore                          # Exclusiones de control de versiones
 ├── install.bat                         # Instalador de 1 solo clic con respaldo automático
 ├── uninstall.bat                       # Desinstalador / Restaurador a vanilla
@@ -125,7 +126,7 @@ FH4-NFS-Action-Camera-Mod/
 ## 🚀 Instalación Rápida
 
 ### Opción 1: Instalador Automático (Recomendado)
-1. Coloca la carpeta `FH4-NFS-Action-Camera-Mod` dentro de la carpeta principal de tu juego:  
+1. Coloca la carpeta `Horizon-Visceral` dentro de la carpeta principal de tu juego:  
    *(ejemplo: `C:\Program Files (x86)\Steam\steamapps\common\ForzaHorizon4\`)*.
 2. Haz doble clic en **`install.bat`**.
 3. El instalador detectará el juego, creará un respaldo de seguridad de tus archivos actuales y colocará los archivos del mod automáticamente.
@@ -163,6 +164,10 @@ Para volver a las cámaras originales de fábrica en cualquier momento:
 
 ---
 
-## 📄 Licencia
+## 📄 Licencia y Derechos de Autor
 
-Este proyecto está bajo la Licencia **MIT** — consulta el archivo [LICENSE](LICENSE) para más detalles.
+**Copyright (c) 2026 DriifterSelf. Todos los derechos reservados.**
+
+* Este mod es gratuito exclusivamente para uso y entretenimiento personal del usuario final.
+* **Queda estrictamente prohibido** el uso comercial, monetización, venta, resubida a otras plataformas o la copia/extracción de este código y sus curvas de telemetría para otros mods públicos sin autorización previa por escrito del autor.
+* Consulta el archivo [LICENSE](LICENSE) para conocer los términos completos.

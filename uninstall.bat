@@ -1,9 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
-title FH4 - NFS Action Camera Mod Uninstaller
+title Horizon-Visceral Mod Uninstaller
 
 echo =====================================================================
-echo  FH4 - Desinstalador / Restaurador a Camara Vanilla de Fabrica
+echo  Horizon-Visceral: Desinstalador a Camara Vanilla de Fabrica
 echo =====================================================================
 echo.
 

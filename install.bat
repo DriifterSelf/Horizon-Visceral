@@ -1,9 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
-title FH4 - NFS Action Camera Mod Installer
+title Horizon-Visceral Mod Installer
 
 echo =====================================================================
-echo  FH4 - Need for Speed (2015) Action Camera & Telemetry Mod Installer
+echo  Horizon-Visceral: Need for Speed Action Camera & Telemetry Installer
+echo  Autor: DriifterSelf
 echo =====================================================================
 echo.
 
@@ -15,7 +16,7 @@ if exist "..\ForzaHorizon4.exe" (
     set "GAME_DIR=."
 ) else (
     echo [ERROR] No se encontro ForzaHorizon4.exe en la carpeta superior ni actual.
-    echo Por favor, coloca la carpeta de este mod dentro del directorio raiz de Forza Horizon 4.
+    echo Por favor, coloca la carpeta Horizon-Visceral dentro del directorio raiz de Forza Horizon 4.
     pause
     exit /b 1
 )
@@ -45,13 +46,13 @@ if not exist "%GAME_DIR%\mediapc\Camera\CameraPhysics.xml.pre_mod_bak" (
 )
 
 :: Deploy mod files
-echo [INFO] Instalando mod en mediapc y media...
+echo [INFO] Instalando Horizon-Visceral en mediapc y media...
 copy /Y "mod_files\mediapc\Camera\CameraPhysics.xml" "%GAME_DIR%\mediapc\Camera\CameraPhysics.xml" >nul
 copy /Y "mod_files\media\Camera\CameraPhysics.xml" "%GAME_DIR%\media\Camera\CameraPhysics.xml" >nul
 
 echo.
 echo =====================================================================
-echo  INSTALACION COMPLETADA CON EXITO
+echo  INSTALACION DE HORIZON-VISCERAL COMPLETADA CON EXITO
 echo  - Mod instalado en: mediapc/Camera/CameraPhysics.xml
 echo  - Mod instalado en: media/Camera/CameraPhysics.xml
 echo  - Camara 1 (Seguimiento Cerca): NFS 2015 Hero Drift + Frenado Visceral
