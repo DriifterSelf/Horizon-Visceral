@@ -149,11 +149,47 @@ Para volver a las cámaras originales de fábrica en cualquier momento:
 
 ---
 
-## 🎮 Cámaras en el Juego
+## 🎮 Cámaras en el Juego — Guía Completa de Modificaciones
 
-* **Cámara de Seguimiento (Cerca)**: Configuración principal. Integra el derrape NFS 2015 completo, mordida visceral de frenado y los 11 efectos de telemetría.
-* **Cámara de Seguimiento (Lejos)**: Variante de mayor amplitud para carreras competitivas con los mismos efectos físicos suavizados.
-* **Cámara Interior (DriverCam)**: **100% original e intacta**. Cero cambios para los puristas del volante y cambio manual.
+### 1. 🏎️ Cámara de Seguimiento Cerca (`FollowCam`)
+* **Configuración principal del mod**:
+* Derrape en órbita circular 3D estilo NFS 2015 ($44^\circ$, coche 100% centrado en pantalla, zona muerta de 0.20).
+* Frenado visceral con compresión hacia adelante ($-50\text{ cm}$), cabeceo de morro ($-3.2^\circ$), compresión de FOV ($-4.0^\circ$) y descenso protector hacia el asfalto ($-11\text{ cm}$, sin recortes sobre el techo).
+* Integración de los 11 sistemas de telemetría dinámica (saltos, aterrizajes, vados de agua, off-road, balanceo de chasis y choques secos).
+
+### 2. 🏁 Cámara de Seguimiento Lejos (`FollowCam2`)
+* Variante de mayor amplitud visual para carreras competitivas.
+* Mismos efectos dinámicos de frenado, derrape y telemetría adaptados a un tiro de cámara más amplio y panorámico.
+
+### 3. 💥 Cámara de Parachoques / Defensa Delantera (`BumperHigh`)
+* **Giro Cinemático al Ápice en Derrape (`Slip_Lateral`)**:
+  * La rotación de mirada lateral se amplió drásticamente de $0.48^\circ$ a **$10.5^\circ$**.
+  * Al derrapar o cruzar el coche en una curva, la cámara de parachoques rota apuntando de forma natural hacia la salida de la curva y el punto de fuga (emulando las cámaras de parachoques reales del WRC y Gymkhana).
+* **Sensibilidad Táctil de Suspensión y Pianos (`SurfaceBumpOffset_FL/FR/RL/RR`)**:
+  * Respuesta amplificada **x14** ($0.01^\circ \to 0.14^\circ$ en cabeceo y balanceo) en las cuatro esquinas individuales del vehículo.
+  * Transmite con máxima nitidez el paso sobre pianos de circuito, baches, bordillos y cambios de superficie a ras de suelo.
+* **Frenado Hidrodinámico en Agua (`WaterDrag`)**:
+  * Cabeceo hacia adelante de **$+7.5^\circ$** y compresión de FOV de **$-7.0^\circ$** al cruzar ríos y charcos a velocidad.
+* **Amortiguación de Aterrizajes y Grava**:
+  * Absorción elástica calibrada en `RecentLandingScore` ($K=350, D=0.48$) y relieve de tierra con `OffRoadVerticalAcceleration` ($K=500, D=0.55$).
+
+### 4. 🚘 Cámara de Cofre / Capó (`Hood`)
+* **Giro Reactivo en Derrapes**:
+  * Incorpora el mismo giro dinámico de **$10.5^\circ$** en derrapes para encuadrar la trazada de la curva sobre el cofre del vehículo.
+* **Telemetría de Chasis y Suspensión**:
+  * Reacción de balanceo en curvas con agarre, vibración de pianos y respuesta contundente al frenar y acelerar a fondo.
+* **Absorción de Impactos**:
+  * Cabeceo y compresión vertical calibrados para aterrizajes de saltos y vados de agua sin perder de vista la pista.
+
+### 5. 🪟 Cámara de Tablero / Parabrisas (`NoWheelDriverCam`)
+* Diseñada para usuarios que juegan con volante físico o prefieren vista limpia de tablero sin volante virtual en pantalla:
+  * Giro suave de mirada hacia el ápice de la curva en derrape ($9.0^\circ$ en `Slip_Lateral`).
+  * Telemetría de baches y amortiguación de colisiones sin vibraciones mareantes.
+
+### 6. 🧤 Cámara Interior de Cabina (`DriverCam` - Con Volante y Manos)
+* **100% ORIGINAL E INTACTA DE FÁBRICA**:
+  * 67 capas exactamente idénticas a los archivos originales de Playground Games.
+  * Preservada para los puristas que buscan la fidelidad de simulación oficial de Forza Horizon 4.
 
 ---
 
