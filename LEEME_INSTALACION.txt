@@ -1,0 +1,50 @@
+========================================================================
+🏎️ HORIZON-VISCERAL MOD: GUIA RAPIDA DE INSTALACION EN 3 PASOS
+Autor: DriifterSelf
+========================================================================
+
+¡Hola! Si descargaste este archivo .ZIP, instalar el mod es extremadamente facil:
+
+PASO 1:
+Descomprime esta carpeta (Horizon-Visceral) en cualquier lugar de tu PC.
+(De preferencia dentro de la carpeta donde tienes instalado Forza Horizon 4,
+o en tu escritorio).
+
+PASO 2:
+Haz doble clic sobre:
+--> install.bat <--
+
+El instalador detectara tu juego automaticamente, creara una copia de seguridad
+de tus archivos originales para que nunca pierdas nada, e instalara el mod.
+
+PASO 3:
+¡Abre Forza Horizon 4 y juega!
+
+------------------------------------------------------------------------
+¿COMO DESINSTALAR Y VOLVER A LA CAMARA ORIGINAL?
+------------------------------------------------------------------------
+Solo haz doble clic sobre:
+--> uninstall.bat <--
+Y tus camaras volveran a ser 100% las originales de fabrica de Playground Games.
+
+------------------------------------------------------------------------
+¿QUE CAMARAS MODIFICA EL MOD?
+------------------------------------------------------------------------
+1. Camara Seguimiento (Cerca):
+   - Derrape en orbita 3D estilo Need for Speed (2015) con el coche 100% centrado.
+   - Mordida visceral al frenar con compresion y caida rasante al asfalto.
+   - Telemetria de saltos, aterrizajes de rally, rios y balanceo de chasis.
+
+2. Camara Seguimiento (Lejos):
+   - Version panoramica de mayor amplitud para carreras competitivas.
+
+3. Camara de Parachoques / Bumper:
+   - Gira 10.5 grados apuntando hacia la salida de la curva en derrapes (camara de rally).
+   - Siente cada bordillo y piano de circuito en la suspension.
+
+4. Camara de Cofre / Capo:
+   - Misma mirada reactiva de 10.5 grados y balanceo de carroceria.
+
+5. Camara de Cabina Interior (Con volante y manos):
+   - 100% ORIGINAL E INTOCADA para los puristas del volante.
+========================================================================

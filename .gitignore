@@ -12,3 +12,4 @@ __pycache__/
 
 # Distribution archives
 *.zip
+!releases/*.zip

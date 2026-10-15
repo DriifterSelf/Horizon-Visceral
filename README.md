@@ -6,6 +6,21 @@
 [![License](https://img.shields.io/badge/License-All%20Rights%20Reserved%20(Proprietary)-red.svg)](LICENSE)
 [![Author](https://img.shields.io/badge/Author-DriifterSelf-blueviolet.svg)](https://github.com/DriifterSelf)
 
+---
+
+### ⬇️ DESCARGA RÁPIDA (PARA JUGADORES / 1-CLICK ZIP)
+> **¿No usas Git ni sabes clonar repositorios? No te preocupes:**  
+> Haz clic en el botón verde para descargar el archivo ZIP listo para usar:
+> 
+> [![Descargar ZIP](https://img.shields.io/badge/📥%20DESCARGAR%20MOD-Horizon--Visceral--v1.0.0.zip%20(73%20KB)-brightgreen?style=for-the-badge&logo=github)](https://github.com/DriifterSelf/Horizon-Visceral/raw/main/releases/Horizon-Visceral-v1.0.0.zip)
+>
+> ⚡ **Instalación para no programadores en 3 pasos:**
+> 1. Descarga el paquete [**`Horizon-Visceral-v1.0.0.zip`**](https://github.com/DriifterSelf/Horizon-Visceral/raw/main/releases/Horizon-Visceral-v1.0.0.zip) y descomprímelo.
+> 2. Haz doble clic en **`install.bat`** (detecta tu juego automáticamente y crea un respaldo seguro previo de tus archivos originales).
+> 3. ¡Abre Forza Horizon 4 y disfruta!
+
+---
+
 Un mod de física de cámara cinemática de alta acción para **Forza Horizon 4**, inspirado en la legendaria cámara de persecución dinámica de **Need for Speed (2015)** presentada en el E3.
 
 Transforma por completo las cámaras de seguimiento exteriores rígidas y desconectadas de Forza en una experiencia visceral, reactiva y cinematográfica que traduce cada gramo de telemetría del coche (fuerzas G, derrapes, suspensión, saltos, vados de agua y colisiones) directamente al encuadre visual.
